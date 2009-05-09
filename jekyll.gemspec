@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version = "0.5.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Tom Preston-Werner"]
+  s.authors = ["Tom Preston-Werner", "Tatsuya Takamura"]
   s.date = %q{2009-05-06}
   s.default_executable = %q{jekyll}
   s.description = %q{Jekyll is a simple, blog aware, static site generator.}
@@ -33,10 +33,12 @@ Gem::Specification.new do |s|
     "lib/jekyll/filters.rb",
     "lib/jekyll/layout.rb",
     "lib/jekyll/page.rb",
+    "lib/jekyll/pager.rb",
     "lib/jekyll/post.rb",
     "lib/jekyll/site.rb",
     "lib/jekyll/tags/highlight.rb",
     "lib/jekyll/tags/include.rb",
+    "lib/jekyll/tags/eval_assign.rb",
     "test/helper.rb",
     "test/source/_includes/sig.markdown",
     "test/source/_layouts/default.html",
